@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Broccoli and cauliflower illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163020" />
+      <stop offset="100%" stop-color="#2f5233" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="20" fill="url(#bg)" />
+  <ellipse cx="58" cy="88" rx="24" ry="20" fill="#81c784" />
+  <circle cx="48" cy="78" r="11" fill="#66bb6a" />
+  <circle cx="58" cy="72" r="13" fill="#5aae61" />
+  <circle cx="70" cy="80" r="10" fill="#66bb6a" />
+  <rect x="54" y="94" width="8" height="24" rx="3" fill="#8d6e63" />
+  <ellipse cx="104" cy="88" rx="24" ry="20" fill="#f4f1de" />
+  <circle cx="94" cy="78" r="11" fill="#efe8cf" />
+  <circle cx="104" cy="72" r="13" fill="#f7f3df" />
+  <circle cx="116" cy="80" r="10" fill="#efe8cf" />
+  <rect x="100" y="94" width="8" height="24" rx="3" fill="#d8c9a1" />
+</svg>

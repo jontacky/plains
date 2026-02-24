@@ -10,27 +10,27 @@ import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    img: "/akuse.png",
-    title: "Akuse Project",
-    category: "Agriculture",
+    img: "/images/mulch-rollout.jpg",
+    title: "Bed Preparation",
+    category: "Soil and Irrigation Setup",
     showOverlay: true,
   },
   {
-    img: "/brewniase.png",
-    title: "Brewniase (Oti Region) Project",
-    category: "Community Farming",
+    img: "/images/nursery-full-2.jpg",
+    title: "Nursery Development",
+    category: "Seedling Readiness",
     showOverlay: true,
   },
   {
-    img: "/accra.png",
-    title: "Accra Urban Garden Project",
-    category: "Urban Agriculture",
+    img: "/images/tractor-sunset-row.jpg",
+    title: "Field Structuring",
+    category: "Mechanized Preparation",
     showOverlay: true,
   },
   {
-    img: "/tamale.png",
-    title: "Tamale Project",
-    category: "Rural Agriculture",
+    img: "/images/transplant-worker-bag.jpg",
+    title: "Transplant Execution",
+    category: "Planting Operations",
     showOverlay: true,
   },
 ];
@@ -39,8 +39,8 @@ export const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-background">
       <div className="container mx-auto text-center px-4">
-        <p className="text-sm uppercase tracking-widest text-gray-400">RECENTLY COMPLETED WORK</p>
-        <h3 className="text-4xl font-bold my-4 text-white">Explore Our Projects</h3>
+        <p className="text-sm uppercase tracking-widest text-gray-400">HOW WE WORK</p>
+        <h3 className="text-4xl font-bold my-4 text-white">From Field Preparation to Buyer Dispatch</h3>
         <Carousel
           opts={{
             align: "start",

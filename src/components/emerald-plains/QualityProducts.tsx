@@ -2,16 +2,16 @@ import { LineChart, Leaf } from "lucide-react";
 
 export const QualityProducts = () => {
   return (
-    <section id="services" className="py-24 bg-background">
+    <section id="modern-agriculture" className="py-24 bg-background">
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center px-4">
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1517487881594-2787fef5ee4f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Family gardening"
+            src="/images/nursery-overview.jpg"
+            alt="Seedling nursery at Emerald Plains"
             className="rounded-lg w-full"
           />
           <div className="absolute top-8 right-8 w-24 h-24 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center border-2 border-white/20">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Organic_logo.svg/1200px-Organic_logo.svg.png" alt="Organic" className="rounded-full p-2" />
+            <Leaf className="w-10 h-10 text-primary" />
           </div>
         </div>
         <div className="text-white">
@@ -25,7 +25,8 @@ export const QualityProducts = () => {
               <div>
                 <h4 className="text-xl font-semibold">Our Agriculture Growth</h4>
                 <p className="text-gray-400 mt-2">
-                  Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus arcu. Metus elit auctor
+                  We are scaling through structured field layout, nursery planning, mulching, and drip-ready bed preparation to keep
+                  output more consistent across planting cycles.
                 </p>
               </div>
             </div>
@@ -36,7 +37,8 @@ export const QualityProducts = () => {
               <div>
                 <h4 className="text-xl font-semibold">Making Healthy Foods</h4>
                 <p className="text-gray-400 mt-2">
-                  Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus arcu. Metus elit auctor interdum scelerisque
+                  We focus on clean handling, field monitoring, and careful sorting before dispatch so homes, retailers, and trade buyers
+                  receive produce that is fresh, safe, and market-ready.
                 </p>
               </div>
             </div>

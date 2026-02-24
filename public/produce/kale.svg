@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Kale illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#113228" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="20" fill="url(#bg)" />
+  <ellipse cx="80" cy="94" rx="44" ry="38" fill="#3fa34d" />
+  <ellipse cx="59" cy="86" rx="18" ry="26" fill="#53b35c" />
+  <ellipse cx="101" cy="86" rx="18" ry="26" fill="#53b35c" />
+  <ellipse cx="80" cy="72" rx="20" ry="24" fill="#66bb6a" />
+  <path d="M80 56v70" stroke="#2f6f37" stroke-width="5" stroke-linecap="round" />
+  <path d="M60 84c10 6 16 14 20 24M100 84c-10 6-16 14-20 24" stroke="#2f6f37" stroke-width="4" stroke-linecap="round" />
+</svg>

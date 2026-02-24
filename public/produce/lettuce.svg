@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Lettuce illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="100%" stop-color="#2d6a4f" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="20" fill="url(#bg)" />
+  <ellipse cx="80" cy="94" rx="42" ry="34" fill="#95d5b2" />
+  <ellipse cx="80" cy="94" rx="33" ry="26" fill="#74c69d" />
+  <ellipse cx="80" cy="94" rx="23" ry="18" fill="#52b788" />
+  <path d="M44 96c8-8 18-13 36-14M116 96c-8-8-18-13-36-14M52 112c10-4 18-5 28-5M108 112c-10-4-18-5-28-5" stroke="#2d6a4f" stroke-width="3" stroke-linecap="round" />
+</svg>

@@ -1,1 +1,15 @@
 AI_RULES.md
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local raw media and conversion cache
+images/
+.cache-heic/
+
+# OS/editor noise
+.DS_Store
+public/.DS_Store
+dist/.DS_Store
+*.log
