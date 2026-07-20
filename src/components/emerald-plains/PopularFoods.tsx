@@ -1,46 +1,46 @@
 import { Badge } from "@/components/ui/badge";
-import { Sprout, Truck, Users } from "lucide-react";
+import { Building2, Handshake, Route } from "lucide-react";
 
 const produce = [
   {
     name: "Habanero Pepper",
     window: "Harvested and graded from active field blocks.",
-    buyer: "Retail + Wholesale + Export",
+    buyer: "Fresh produce",
     image: "/images/F9AD99D1-BE89-4519-B8FB-4769654EE0E3_4_5005_c.jpeg",
     alt: "Fresh green habanero peppers ready for sorting",
   },
   {
     name: "Kale",
     window: "Produced as part of seasonal leafy-vegetable planning.",
-    buyer: "Retail + Wholesale",
+    buyer: "Seasonal planning",
     image: "/produce-real/kale.jpg",
     alt: "Fresh kale leaves bundled for market",
   },
   {
     name: "Tomatoes",
     window: "Managed under seasonal crop rotation and market demand.",
-    buyer: "Retail + Wholesale",
+    buyer: "Seasonal planning",
     image: "/produce-real/tomatoes.jpg",
     alt: "Fresh red tomatoes in harvest display",
   },
   {
     name: "Broccoli & Cauliflower",
     window: "Scheduled in rotation programs with quality-focused handling.",
-    buyer: "Wholesale + Export",
+    buyer: "Market-led production",
     image: "/produce-real/broccoli-cauliflower.jpg",
     alt: "Broccoli and cauliflower side by side",
   },
   {
     name: "Lettuce",
     window: "Grown for fast-cycle supply windows and consistent freshness.",
-    buyer: "Retail + Wholesale",
+    buyer: "Fresh produce",
     image: "/produce-real/lettuce.jpg",
     alt: "Lettuce heads harvested for market",
   },
   {
     name: "Cassava",
     window: "Field-grown root crop prepared for local and trade channels.",
-    buyer: "Wholesale",
+    buyer: "Field crop",
     image: "/produce-real/cassava.jpg",
     alt: "Cassava roots prepared after harvest",
   },
@@ -48,36 +48,35 @@ const produce = [
 
 export const PopularFoods = () => {
   return (
-    <section id="products" className="py-24 bg-secondary">
+    <section id="products" className="scroll-mt-28 py-24 bg-background">
       <div className="container mx-auto px-4">
         <p className="text-sm uppercase tracking-widest text-gray-300 text-center">SEASONAL PRODUCE</p>
         <h3 className="text-4xl font-bold my-4 text-white text-center">Our Seasonal Produce Portfolio</h3>
-        <p className="text-center text-gray-300 max-w-3xl mx-auto">
-          Product images are now served from local assets for reliable loading. Habanero photos are from Emerald Plains fields, and the
-          remaining produce images are verified product references.
+        <p className="text-center text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          Our portfolio reflects a phased approach to short-cycle vegetables, longer-term crops, and structured supply development. Crop decisions are guided by agronomic fit, production economics, and market demand.
         </p>
 
         <div className="grid md:grid-cols-3 gap-4 mt-10">
           <div className="rounded-lg border border-primary/30 bg-background/70 p-5 text-white">
             <div className="flex items-center gap-3 mb-3">
-              <Users className="w-5 h-5 text-primary" />
-              <p className="font-semibold">Retail Buyers</p>
+              <Building2 className="w-5 h-5 text-primary" />
+              <p className="font-semibold">Company-Managed Production</p>
             </div>
-            <p className="text-sm text-gray-300">Home orders and weekly kitchen supply through direct WhatsApp support.</p>
+            <p className="text-sm text-gray-300">Strengthening crop discipline, water reliability, field supervision, and measurable yield.</p>
           </div>
           <div className="rounded-lg border border-primary/30 bg-background/70 p-5 text-white">
             <div className="flex items-center gap-3 mb-3">
-              <Truck className="w-5 h-5 text-primary" />
-              <p className="font-semibold">Wholesale Buyers</p>
+              <Handshake className="w-5 h-5 text-primary" />
+              <p className="font-semibold">Structured Farmer Participation</p>
             </div>
-            <p className="text-sm text-gray-300">Structured volumes for markets, schools, hotels, and distributors.</p>
+            <p className="text-sm text-gray-300">Expanding controlled supply through selected growers, training, supervision, and coordination.</p>
           </div>
           <div className="rounded-lg border border-primary/30 bg-background/70 p-5 text-white">
             <div className="flex items-center gap-3 mb-3">
-              <Sprout className="w-5 h-5 text-primary" />
-              <p className="font-semibold">Export-Ready Mindset</p>
+              <Route className="w-5 h-5 text-primary" />
+              <p className="font-semibold">Market-Linked Planning</p>
             </div>
-            <p className="text-sm text-gray-300">Sorting, packing, and communication routines built for local and cross-border trade.</p>
+            <p className="text-sm text-gray-300">Connecting planting and harvest decisions to buyer channels and post-harvest capacity.</p>
           </div>
         </div>
 

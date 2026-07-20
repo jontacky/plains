@@ -6,11 +6,11 @@ import { Mail, MessageCircle, Phone } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
-  { label: "Products", href: "#products" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Modern Agriculture", href: "#modern-agriculture" },
-  { label: "Footprint", href: "#projects" },
+  { label: "Our Strategy", href: "#strategy" },
+  { label: "Operations", href: "#operations" },
+  { label: "Produce", href: "#products" },
+  { label: "Partnerships", href: "#partnerships" },
+  { label: "Our Work", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -19,7 +19,7 @@ export const Footer = () => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
     const email = (formData.get("email") as string)?.trim();
-    const message = `Hello Emerald Plains, please add ${email || "my email"} to your produce update list.`;
+    const message = `Hello Emerald Plains, please add ${email || "my email"} to your company and field update list.`;
     window.open(buildWhatsAppUrl(message), "_blank", "noopener,noreferrer");
     event.currentTarget.reset();
   };
@@ -31,7 +31,7 @@ export const Footer = () => {
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">Emerald Plains</h2>
             <p className="text-sm">
-              Family-grown vegetables from Ghana, supplied with reliable standards for homes, retailers, and trade partners.
+              An integrated agribusiness building reliable production, stronger post-harvest systems, and long-term agricultural value from Ghana.
             </p>
             <div className="flex flex-wrap gap-3 mt-6">
               <Button asChild size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
@@ -69,15 +69,16 @@ export const Footer = () => {
           </div>
 
           <div className="lg:col-span-2">
-            <h3 className="text-lg font-semibold text-white mb-4">Weekly Harvest and Trade Updates</h3>
-            <p className="text-sm">Enter your email and continue on WhatsApp to subscribe to produce and supply updates.</p>
+            <h3 className="text-lg font-semibold text-white mb-4">Company and Field Updates</h3>
+            <p className="text-sm">Enter your email and continue on WhatsApp to request updates on our operations, progress, and partnership areas.</p>
             <form className="mt-4 flex gap-2" onSubmit={onSubscribe}>
               <Input
                 name="email"
                 type="email"
                 required
-                placeholder="Enter your email"
-                className="bg-background border-none"
+                aria-label="Business email for company updates"
+                placeholder="Business email"
+                className="bg-background border border-white/10"
               />
               <Button type="submit" className="bg-primary text-primary-foreground hover:bg-primary/90">
                 Subscribe

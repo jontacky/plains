@@ -8,6 +8,7 @@ import { Introduction } from "../components/emerald-plains/Introduction";
 import { PopularFoods } from "../components/emerald-plains/PopularFoods";
 import { Projects } from "../components/emerald-plains/Projects";
 import { QualityProducts } from "../components/emerald-plains/QualityProducts";
+import { StrategicLayers } from "../components/emerald-plains/StrategicLayers";
 
 const Index = () => {
   return (
@@ -16,9 +17,10 @@ const Index = () => {
       <main>
         <Hero />
         <Introduction />
-        <FarmGallery />
+        <StrategicLayers />
         <PopularFoods />
         <QualityProducts />
+        <FarmGallery />
         <CallToActionVideo />
         <Projects />
         {/* <Testimonials /> */}

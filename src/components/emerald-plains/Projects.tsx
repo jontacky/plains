@@ -39,8 +39,9 @@ export const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-background">
       <div className="container mx-auto text-center px-4">
-        <p className="text-sm uppercase tracking-widest text-gray-400">HOW WE WORK</p>
-        <h3 className="text-4xl font-bold my-4 text-white">From Field Preparation to Buyer Dispatch</h3>
+        <p className="text-sm uppercase tracking-widest text-gray-400">OUR WORK IN PRACTICE</p>
+        <h3 className="text-4xl font-bold my-4 text-white">Building Capability in the Field</h3>
+        <p className="mx-auto max-w-2xl text-gray-400">Practical progress across nursery development, field preparation, irrigation readiness, and supervised crop establishment.</p>
         <Carousel
           opts={{
             align: "start",

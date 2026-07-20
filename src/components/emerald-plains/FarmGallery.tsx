@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
-import { buildWhatsAppUrl } from "@/lib/contact";
 import { Maximize2 } from "lucide-react";
 import { useState } from "react";
 
@@ -61,25 +59,18 @@ const galleryItems: GalleryItem[] = [
 export const FarmGallery = () => {
   const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(null);
 
-  const galleryMessage =
-    "Hello Emerald Plains, I have seen your farm gallery. Please share today's availability, grading options, and pricing.";
-
   return (
     <section id="gallery" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
           <div>
-            <p className="text-sm uppercase tracking-widest text-primary">FAMILY FARM GALLERY</p>
-            <h3 className="text-4xl font-bold my-4 text-white">Real Moments from Our Fields and Harvest Team</h3>
+            <p className="text-sm uppercase tracking-widest text-primary">OPERATIONS IN VIEW</p>
+            <h3 className="text-4xl font-bold my-4 text-white">Progress You Can See in the Field</h3>
             <p className="text-gray-300 max-w-2xl">
-              From planting to picking and packing, these are day-to-day moments from our farm. No stock images.
+              A direct view of nursery development, field preparation, transplanting, crop supervision, and the people building Emerald Plains. Every image is from our operations.
             </p>
           </div>
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-            <a href={buildWhatsAppUrl(galleryMessage)} target="_blank" rel="noreferrer">
-              Ask for Today&apos;s Availability
-            </a>
-          </Button>
+          <a href="#partnerships" className="font-semibold text-primary hover:text-white">Explore partnership areas →</a>
         </div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[12rem]">

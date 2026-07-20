@@ -71,11 +71,22 @@
 @layer base {
   html {
     @apply scroll-smooth;
+    scroll-padding-top: 7rem;
   }
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
